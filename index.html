@@ -1,173 +1,123 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bibliotech</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibliotech</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<header>
+    <header>
+        <div class="logo">BIBLIOTECH</div>
+        <nav>
+            <a href="#">Livros</a>
+            <a href="#">Coleção Digital</a>
+            <a href="#">Eventos</a>
+            <a href="#">Serviços</a>
+            <a href="#">Sobre</a>
+        </nav>
+        <button class="login">Entrar</button>
+    </header>
 
-<div class="logo">BIBLIOTECH</div>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Seu portal para <span>conhecimento</span> e descoberta</h1>
+            <p>Acesse milhões de livros, jornais e conteúdos digitais de qualquer lugar.</p>
+            <div class="search-box">
+                <input type="text" placeholder="Pesquisar livros, autores ou ISBN">
+                <button>Explorar Coleção</button>
+            </div>
+        </div>
+    </section>
 
-<nav>
-<a href="#">Livros</a>
-<a href="#">Coleção Digital</a>
-<a href="#">Eventos</a>
-<a href="#">Serviços</a>
-<a href="#">Sobre</a>
-</nav>
+    <section class="books">
+        <h2>Novidades</h2>
+        <div class="book-grid">
+            <div class="book">
+                <img src="https://covers.openlibrary.org/b/id/10523338-L.jpg">
+                <h4>A Biblioteca da Meia-Noite</h4>
+                <p>Matt Haig</p>
+                <button>Emprestar</button>
+            </div>
+            <div class="book">
+                <img src="https://covers.openlibrary.org/b/id/8231996-L.jpg">
+                <h4>Circe</h4>
+                <p>Madeline Miller</p>
+                <button>Emprestar</button>
+            </div>
+            <div class="book">
+                <img src="https://covers.openlibrary.org/b/id/10404198-L.jpg">
+                <h4>Cloud Cuckoo Land</h4>
+                <p>Anthony Doerr</p>
+                <button>Emprestar</button>
+            </div>
+            <div class="book">
+                <img src="https://covers.openlibrary.org/b/id/10276855-L.jpg">
+                <h4>Os Sete Maridos de Evelyn Hugo</h4>
+                <p>Taylor Jenkins Reid</p>
+                <button>Emprestar</button>
+            </div>
+        </div>
+    </section>
 
-<button class="login">Entrar</button>
+    <section class="events">
+        <h2>Próximos Eventos</h2>
+        <div class="event-grid">
+            <div class="event">
+                <h3>Clube do Livro</h3>
+                <p>Discussão sobre livros da semana.</p>
+                <button>Inscrever-se</button>
+            </div>
+            <div class="event">
+                <h3>Hora da História</h3>
+                <p>Sessão de leitura para crianças.</p>
+                <button>Inscrever-se</button>
+            </div>
+            <div class="event">
+                <h3>Palestra com Autor</h3>
+                <p>Uma conversa especial com um escritor convidado.</p>
+                <button>Inscrever-se</button>
+            </div>
+        </div>
+    </section>
 
-</header>
+    <section class="services">
+        <h2>Como Podemos Ajudar</h2>
+        <div class="service-grid">
+            <div class="service">
+                <h3>Empréstimos Digitais</h3>
+                <p>Leia livros digitais e audiobooks diretamente no seu dispositivo.</p>
+            </div>
+            <div class="service">
+                <h3>Salas de Estudo</h3>
+                <p>Espaços reservados para estudar ou trabalhar em grupo.</p>
+            </div>
+            <div class="service">
+                <h3>Ajuda em Pesquisas</h3>
+                <p>Suporte de bibliotecários para encontrar informações.</p>
+            </div>
+        </div>
+    </section>
 
-
-
-<section class="hero">
-
-<div class="hero-content">
-
-<h1>Seu portal para <span>conhecimento</span> e descoberta</h1>
-
-<p>Acesse milhões de livros, jornais e conteúdos digitais de qualquer lugar.</p>
-
-<div class="search-box">
-<input type="text" placeholder="Pesquisar livros, autores ou ISBN">
-<button>Explorar Coleção</button>
-</div>
-
-</div>
-
-</section>
-
-
-
-<section class="books">
-
-<h2>Novidades</h2>
-
-<div class="book-grid">
-
-<div class="book">
-<img src="https://covers.openlibrary.org/b/id/10523338-L.jpg">
-<h4>A Biblioteca da Meia-Noite</h4>
-<p>Matt Haig</p>
-<button>Emprestar</button>
-</div>
-
-<div class="book">
-<img src="https://covers.openlibrary.org/b/id/8231996-L.jpg">
-<h4>Circe</h4>
-<p>Madeline Miller</p>
-<button>Emprestar</button>
-</div>
-
-<div class="book">
-<img src="https://covers.openlibrary.org/b/id/10404198-L.jpg">
-<h4>Cloud Cuckoo Land</h4>
-<p>Anthony Doerr</p>
-<button>Emprestar</button>
-</div>
-
-<div class="book">
-<img src="https://covers.openlibrary.org/b/id/10276855-L.jpg">
-<h4>Os Sete Maridos de Evelyn Hugo</h4>
-<p>Taylor Jenkins Reid</p>
-<button>Emprestar</button>
-</div>
-
-</div>
-
-</section>
-
-
-
-<section class="events">
-
-<h2>Próximos Eventos</h2>
-
-<div class="event-grid">
-
-<div class="event">
-<h3>Clube do Livro</h3>
-<p>Discussão sobre livros da semana.</p>
-<button>Inscrever-se</button>
-</div>
-
-<div class="event">
-<h3>Hora da História</h3>
-<p>Sessão de leitura para crianças.</p>
-<button>Inscrever-se</button>
-</div>
-
-<div class="event">
-<h3>Palestra com Autor</h3>
-<p>Uma conversa especial com um escritor convidado.</p>
-<button>Inscrever-se</button>
-</div>
-
-</div>
-
-</section>
-
-
-
-<section class="services">
-
-<h2>Como Podemos Ajudar</h2>
-
-<div class="service-grid">
-
-<div class="service">
-<h3>Empréstimos Digitais</h3>
-<p>Leia livros digitais e audiobooks diretamente no seu dispositivo.</p>
-</div>
-
-<div class="service">
-<h3>Salas de Estudo</h3>
-<p>Espaços reservados para estudar ou trabalhar em grupo.</p>
-</div>
-
-<div class="service">
-<h3>Ajuda em Pesquisas</h3>
-<p>Suporte de bibliotecários para encontrar informações.</p>
-</div>
-
-</div>
-
-</section>
-
-
-
-<footer>
-
-<div class="footer-content">
-
-<div>
-<h3>BIBLIOTECH</h3>
-<p>Modernizando a forma de acessar conhecimento.</p>
-</div>
-
-<div>
-<h4>Contato</h4>
-<p>Rua da Biblioteca, 123</p>
-<p>(11) 1234-5678</p>
-</div>
-
-<div>
-<h4>Horário</h4>
-<p>Seg - Sex: 8h - 21h</p>
-<p>Sáb: 10h - 18h</p>
-</div>
-
-</div>
-
-</footer>
+    <footer>
+        <div class="footer-content">
+            <div>
+                <h3>BIBLIOTECH</h3>
+                <p>Modernizando a forma de acessar conhecimento.</p>
+            </div>
+            <div>
+                <h4>Contato</h4>
+                <p>Rua da Biblioteca, 123</p>
+                <p>(11) 1234-5678</p>
+            </div>
+            <div>
+                <h4>Horário</h4>
+                <p>Seg - Sex: 8h - 21h</p>
+                <p>Sáb: 10h - 18h</p>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
